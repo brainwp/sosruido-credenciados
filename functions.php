@@ -12,3 +12,9 @@ function sosf_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+
+
+/**
+ * Customizer additions.
+ */
+require get_stylesheet_directory() . '/inc/customizer.php';
