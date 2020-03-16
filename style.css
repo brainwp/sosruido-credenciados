@@ -12,6 +12,11 @@
  Text Domain:  sos_franquias
 */
 
+/*
+==================================
+ Section Network News
+==================================
+*/
 .section-network-news .list-article, .archive .list-article, .blog .list-article {
     padding: 25px 0px;
     width: 33.3%;

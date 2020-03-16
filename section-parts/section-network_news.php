@@ -3,7 +3,7 @@
 /**
  * 
  * Section to get news from up site on network.
- * @since 08/08/2020
+ * @since 08/02/2020
  * @author Everaldo Matias <https://everaldo.dev>
  * 
  */
