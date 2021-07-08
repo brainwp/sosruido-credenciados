@@ -1,6 +1,6 @@
 /*
  Theme Name:   SOS Ruído Credenciados
- Theme URI:    https://github.com/brainwp/sosruido-franquia
+ Theme URI:    https://github.com/brainwp/sosruido-credenciados
  Description:  SOS Ruído Credenciados Theme
  Author:       BRAinWP
  Author URI:   https://brainwp.com.br
@@ -210,4 +210,9 @@ footer.site-footer .site-info {
 
 #lg-download {
     display: none;
+}
+
+.wpcf7 input[type="tel"]
+{
+    width: 90% !important;
 }

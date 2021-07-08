@@ -72,7 +72,9 @@ if ( is_multisite() && ! is_main_site() ) :
 		<?php endif; ?>
 
 	<?php } ?>
-
+		<section style="<?php echo esc_attr( $style );?>" id="<?php if ( $coletivo_network_page_featured_id_section != '' ) {
+				echo $coletivo_network_page_featured_id_section;
+			}; ?>" <?php do_action( 'coletivo_section_atts', 'network_page_featured' ); ?> class="<?php echo esc_attr( apply_filters( 'coletivo_section_class', 'section-network-page-featured section-padding onepage-section', 'network-page-featured' ) ); ?>">
 	<div class="content"> 
 		<div class="container">
 			<?php do_action( 'coletivo_section_before_inner', 'network_page_featured' ); ?>
