@@ -1,9 +1,9 @@
 /*
- Theme Name:   SOS Ruído Franquias
- Theme URI:    https://github.com/brasadesign/sosruido-franquia
- Description:  SOS Ruído Franquias Child Theme
- Author:       Brasa Team
- Author URI:   https://brasa.art.br
+ Theme Name:   SOS Ruído Credenciados
+ Theme URI:    https://github.com/brainwp/sosruido-franquia
+ Description:  SOS Ruído Credenciados Theme
+ Author:       BRAinWP
+ Author URI:   https://brainwp.com.br
  Template:     tema-coletivo
  Version:      1.0.0
  License:      GNU General Public License v2 or later
@@ -102,4 +102,112 @@
 }
 .section-network-news.section-inverse h1 a:hover, .section-network-news.section-inverse h2 a:hover, .section-network-news.section-inverse h3 a:hover, .section-network-news.section-inverse h4 a:hover, .section-network-news.section-inverse h5 a:hover {
 	color: #FFF;
+}
+
+/*
+==================================
+ Sections and Templates Customizations
+==================================
+*/
+
+@media screen and (min-width: 720px) {
+.hero-content-style1 h2 {
+    font-size: 55px;
+}
+		}
+
+.section-services .service-item .service-content p {
+   display: none;
+}
+
+.section-gallery.section-padding {
+    padding: 20px 0px 70px;
+    padding: 1.375rem 0px 4.375rem;
+}
+
+.section-services.section-padding {
+    padding: 20px 0px 70px !important;
+    padding: 1.375rem 0px 4.375rem !important;
+}
+
+p.site-description {
+	font-size: 16px !important;
+	top: -13px !important;
+	left: 60px;
+	font-weight: bold;
+}
+
+.section-title-area .section-title {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+.service-item .service-thumbnail  {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.service-item .service-thumbnail img {
+    height: auto;
+	max-width: 160%;
+}
+.service-item h4.service-title {
+    font-weight: 600;
+    text-transform: uppercase;
+   font-size: 1.2rem;
+	text-align: center;
+}
+
+.section-social .follow-heading {
+	font-size: 1.2rem;
+	 font-weight: bold;
+}
+
+.section-contact {
+	background-color: #fff;
+}
+
+.section-news {
+    background: #CCC ;
+	background-size: cover;
+}
+
+.section-network-news {
+    background: #CCC ;
+	background-size: cover;
+}
+.section-yourslider {
+    background: #ef616a ;
+}
+
+.section-yourslider .section-title-area .section-subtitle {
+    color: #FFF;
+}
+
+.section-yourslider .section-title-area {
+    margin-bottom: 40px;
+}
+
+.section-network-page-featured h2.section-title {
+    color: #FFF;
+}
+/*
+footer.site-footer .site-info {
+    background: url(https://dev.brainwp.com.br/sosruido/rio-de-janeiro/wp-content/uploads/sites/3/2020/02/arte-folha-web02.jpg) #aaa no-repeat center center;
+	background-size: cover;
+}
+*/
+#nav-toggle {
+    display: none;
+}
+
+.lg-sub-html  {
+    display: none;
+}
+
+#lg-download {
+    display: none;
 }
